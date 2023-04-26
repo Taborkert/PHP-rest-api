@@ -1,0 +1,20 @@
+{
+  "name": "taborkert-php-rest-api",
+  "version": "1.0.0",
+  "description": "PHP API backend of taborkert.hu",
+  "main": "deploy.js",
+  "scripts": {
+    "deploy": "node deploy",
+    "dev-deploy": "nodemon --watch api -e php deploy.js"
+  },
+  "keywords": [],
+  "author": "Erik Kránicz",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "ftp-deploy": "^2.4.3",
+    "nodemon": "^2.0.22"
+  }
+}
